@@ -113,7 +113,7 @@ function Footer() {
             <AiFillHeart className="h-auto w-7" />
           </div>
           <p className="italic font-bold text-dark-light">
-            Copyright © 2023. Powered By Agilex Developers.
+            Copyright © 2024. Powered By Agilex Developers.
           </p>
         </div>
     
