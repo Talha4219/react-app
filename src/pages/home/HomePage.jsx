@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <MainLayout>
       <Hero />
-      <Articles />
+{/*       <Articles /> */}
       
       <CTA />
      
