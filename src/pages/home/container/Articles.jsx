@@ -35,13 +35,14 @@ const Articles = () => {
         ) : isError ? (
           <ErrorMessage message="Couldn't fetch the posts data" />
         ) : (
-          data.map((post) => (
+          // data?.data.map((post) => (
             <ArticleCard
               key={post._id}
               post={post}
               className="w-full md:w-[calc(50%-20px)] lg:w-[calc(33.33%-21px)]"
             />
-          ))
+          // )
+          )
         )}
       </div>
       <button className="flex items-center px-6 py-3 mx-auto font-bold border-2 rounded-lg gap-x-2 text-primary border-primary">
