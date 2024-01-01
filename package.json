@@ -1,8 +1,10 @@
 {
+  
   "name": "frontend-blog-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://albatossrealtor.netlify.app/",
+  "proxy": "https://albatrossreal.vercel.app/",
+
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@reduxjs/toolkit": "^1.9.3",
@@ -43,6 +45,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "perdeploy":"npm run build",
+    "deploy":"gh-pages -d buld",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
