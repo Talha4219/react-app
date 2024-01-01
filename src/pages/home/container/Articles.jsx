@@ -10,7 +10,7 @@ import ErrorMessage from "../../../components/ErrorMessage";
 import {Link} from 'react-router-dom'
 
 const Articles = () => {
-  const { item, isLoading, isError } = useQuery({
+  const { data, isLoading, isError } = useQuery({
     queryFn: () => getAllPosts(),
     queryKey: ["posts"],
     onError: (error) => {
@@ -35,7 +35,7 @@ const Articles = () => {
         ) : isError ? (
           <ErrorMessage message="Couldn't fetch the posts data" />
         ) : (
-          item?.item.map((post) => (
+          item?.data.map((post) => (
             <ArticleCard
               key={post._id}
               post={post}
