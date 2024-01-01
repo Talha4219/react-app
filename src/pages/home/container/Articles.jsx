@@ -35,7 +35,7 @@ const Articles = () => {
         ) : isError ? (
           <ErrorMessage message="Couldn't fetch the posts data" />
         ) : (
-          item?.data.map((post) => (
+          data?.data.map((post) => (
             <ArticleCard
               key={post._id}
               post={post}
