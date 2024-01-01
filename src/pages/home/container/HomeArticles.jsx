@@ -17,7 +17,7 @@ const Articles = () => {
       console.log(error);
     }, 
   });
-  data = $.parseJSON(data);
+  // data = $.parseJSON(data);
 
   return (
     
@@ -34,7 +34,7 @@ const Articles = () => {
         ) : isError ? (
           <ErrorMessage message="Couldn't fetch the posts data" />
         ) : (
-          data?.data.map((post) => (
+          data?.data.post.map((post) => (
             <ArticleCard
               key={post._id}
               post={post}
