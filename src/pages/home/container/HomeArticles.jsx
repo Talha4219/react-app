@@ -17,7 +17,7 @@ const Articles = () => {
       console.log(error);
     }, 
   });
-  
+  data = $.parseJSON(data);
 
   return (
     
