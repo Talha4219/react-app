@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { images } from "../constants";
 import { logout } from "../store/actions/user";
+<meta name="google-site-verification" content="KKCT_ORddMYEERUj7joVzhRXU5E0AjtwQqtpYqTZ4eE" />
 
 const navItemsInfo = [
   { name: "Home", type: "link", href: "/" },
