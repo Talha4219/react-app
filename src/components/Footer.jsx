@@ -70,7 +70,7 @@ function Footer() {
               <Link to="/about">About Us</Link>
               </li>
               <li className="block pb-2  font-semibold text-blueGray-600 hover:text-blueGray-800 text-[#959EAD]  mt-5 space-y-4 md:text-base">
-              <Link to="/blogs">Articles</Link>
+{/*               <Link to="/blogs">Articles</Link> */}
 
               </li>
               <li className="block pb-2  font-semibold text-blueGray-600 hover:text-blueGray-800 text-[#959EAD]  mt-5 space-y-4 md:text-base">
